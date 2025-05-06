@@ -22,10 +22,10 @@ class BottomNavBar extends StatelessWidget {
       showUnselectedLabels: false,
       items: const [
         BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
-        BottomNavigationBarItem(icon: Icon(Icons.camera_alt), label: "Scan"), // NEW
+        BottomNavigationBarItem(icon: Icon(Icons.camera_alt), label: "Scan"),
         BottomNavigationBarItem(icon: Icon(Icons.insights), label: "Stats"),
-        BottomNavigationBarItem(icon: Icon(Icons.person), label: "Profile"),
         BottomNavigationBarItem(icon: Icon(Icons.article), label: "Report"),
+        BottomNavigationBarItem(icon: Icon(Icons.person), label: "Profile"),
       ],
     );
   }
