@@ -37,16 +37,7 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset('assets/plantTracker.png',  height: MediaQuery.of(context).size.height * 0.25,),
-            SizedBox(height: 10),
-            Text(
-              'PlantTracker',
-              style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold, color: Colors.green),
-            ),
-            Text(
-              'Track your greenhouse anytime, anywhere.',
-              textAlign: TextAlign.center,
-              style: TextStyle(fontSize: 14, color: Colors.black87),
+            Image.asset('assets/plantTracker.png',  height: MediaQuery.of(context).size.height * 0.75,),
             ),
           ],
         ),
